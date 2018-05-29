@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    background: burlywood; 
+}
+.footer{
+    width: 100%;
+    background: burlywood; 
+    position: absolute;
+    bottom: 0;
+}
+.main-content{
+    width:100%;
+    height: 600px;
+    background: blue; 
+    position: absolute;
+    top: 70px;
+}
+.landing-page{
+    width: 100%;
+    height: 100%;
+    background: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.nameGame-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nameGame-picture{
+    width: 400px;
+    height: 200px;
+    margin-top: 100px;
+    background-image: url('../img/nameGame.jpg');
+}
+.screenshots-game{
+    width: 500px;
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.screen{
+    width: 150px;
+    margin: 10px;
+}
+.screen.first{
+    background-image: url('../img/nameGame.jpg');
+}
+.screen.second{
+    background-image: url('../img/nameGame.jpg');
+}
+.screen.third{
+    background-image: url('../img/nameGame.jpg');
+}
+.startInfo-block{
+    display: flex;
+    justify-content: flex-start;
+}
+.start-btn,
+.info-author{
+    width: 20% ;
+    display: flex;
+    justify-content: center;
+}
+.info-author{   
+    
+    width: 60% ; 
+    align-items: center;
+}
